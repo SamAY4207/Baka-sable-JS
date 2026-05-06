@@ -141,3 +141,129 @@ function mailverify(mail){
 mailverify("contact@gmail.com")
 
 mailverify("contactagmail.com")
+
+//EXO 6
+/*role : retourne les la sommes des deux valeurs définies
+parametre : les deux nombres
+return : le résultat dans la console*/
+
+function additionConsole(z,x){
+    return z+x
+
+}
+
+
+
+console.log(additionConsole(52,697))
+
+
+/*EXO 7
+**Return + prompt**
+
+Nous souhaitons créer une fonction qui posera une question en utilisant la fonction "prompt" pour poser une question. La réponse sera retournée et affichée dans la console.
+
+role: propose une question
+parametre : question
+return : réponse de l'utilisateur*/
+/*
+function poserQuestion(question){
+    
+    return prompt(question)
+}
+
+let reponse = poserQuestion("Le KFS éteins tous les autres fast food ?")
+console.log(reponse)
+
+/*EXO 8
+Nous souhaitons créer une fonction qui convertit un montant en euros en dollars. Le montant à convertir est passé en paramètre de la fonction.
+
+La fonction devra retourner le résultat de la conversion.
+
+role : converti un prix en dollar
+parametre : montant et taux
+return : montant en dollar
+*/
+
+function conversion(prix,taux){
+    return prix * taux
+}
+
+let resultat = conversion(45,1.17)
+
+
+console.log(`Le prix converti est de ${resultat} $`)
+
+
+
+/*
+role : demander un prix et un taux de change à l'utilisateur et converti le prix
+return : prix convertit
+*/
+/*
+function convert(){
+//demande le prix a convertir
+let prix = parseFloat(prompt("Quel prix voulez-vous convertir"))
+
+
+//demande le taux
+let taux = parseFloat(prompt("À Quel taux ?"))
+
+//converti
+
+return prix*taux
+
+//retourne le résultat
+}
+
+let prixConverti = convert()
+
+alert(`Le prix est de de ${prixConverti} $`)
+
+
+*/
+
+/*EXO 8.5
+role : calculer une moyenne à partir des notes données par l'utilisateur
+parametre : R
+return : la moyenne
+*/
+
+function moyN(){
+
+    //demander la note et convertir la réponse en type number
+let francais = parseFloat(prompt("Quelle note a eut l'élève en français ?"))
+
+//demander la note et convertir la réponse en type number
+let math = parseFloat(prompt("Quelle note a eut l'élève en maths ?"))
+
+//demander la note et convertir la réponse en type number
+let SVT = parseFloat(prompt("Quelle note a eut l'élève en SVT ?"))
+
+//demander la note et convertir la réponse en type number
+let histoire = parseFloat(prompt("Quelle note a eut l'élève en histoire ?"))
+
+//calculer la moyenne
+let moymoy = (francais+math+SVT+histoire)/4
+return moymoy
+}
+
+
+let moyNG = moyN()
+alert(`La moyenne de l'élève est de ${moyNG} /20`)
+
+
+/*EXO 9
+**Return + split**
+
+Nous souhaitons créer une fonction qui retournera toujours le troisième élément d'une liste à virgule en chaine de caractére. La liste à virgule sera donnée en argument de la fonction. Nous souhaitons afficher ce troisième élément dans la console.
+
+role:
+parametre:
+return:
+*/
+
+/**
+ * @role
+ * @param
+ * @return
+ */
