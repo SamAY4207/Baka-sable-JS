@@ -79,7 +79,7 @@ direBonjour(prenom);
 
 direBonjour("Phillipe");
 
-direBonjour("Jean-Géranrd");
+direBonjour("Jean-Gérard");
 
 direBonjour("Salbatar");
 
