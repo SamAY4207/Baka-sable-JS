@@ -188,3 +188,16 @@
 .txt-purple{
     color:blueviolet
 }
+
+.display-none{
+    display: none;
+}
+
+
+.contour{
+    stroke-width: 10px;
+    border : 10px solid black;
+    stroke: black;
+    width: 100px;
+    height: 100px;
+}
