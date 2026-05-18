@@ -1,0 +1,61 @@
+/*PROFILS UTILISATEURS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containner{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-12 {
+    gap : 12px;
+}
+
+.gap-32 {
+    gap : 32px }
+
+.large-30{
+    width: 30%;
+
+}
+
+.large-60{
+    width: 60%;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.card {
+    background-color: aquamarine;
+    color: blueviolet;
+    border-radius: 15px;
+    padding: 12px;
+    font-family: "Rubik", sans-serif;
+}
+
+.border-radius-15{
+    border-radius: 15px;
+}
